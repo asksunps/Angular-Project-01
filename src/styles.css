@@ -1,1 +1,88 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+
+░S░u░r░a░j░ ░C░h░a░k░r░a░w░a░r░t░i░
+
+
+Author: Suraj Chakrawarti,
+Project Name: First Angular Project,
+Bio: I am Web App Developer with 4+ years of experience and I have 2+ years of experience in WordPress Website Designing and Optimization.
+     I have also hands on experience in jQuery, AJAX, MySql, Adobe Photoshop, Laravel, Angular, HTML, CSS etc.
+     I am able to solve any complex logical problems.
+eMail: surajchakrawarti@gmail.com,
+Contact No: +91-7052681510,
+
+Feel free to contact us about any query.
+
+*/
+
+.main-logo{
+    margin-top: -1px;
+}
+.logo-icon-text{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(255, 166, 0);
+}
+.logo-text{
+    padding-left: 1rem;
+    color: rgb(20, 82, 139);
+}
+
+.nav-list li a{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.25rem;
+    margin-left: 1rem;
+    font-size: .75rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.nav-list li a:hover{
+    color:rgb(250, 143, 3) !important;
+}
+
+.nav-list-btn{
+    border-radius: 0.5rem;
+    background-color: #fbfbfb;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+    font-weight: 500;
+    padding: 0.625rem 1.5rem 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: .75rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.nav-list-btn:hover{
+    color: #000;
+    border-color: #fbfbfb;
+    background-color: #dddada;
+}
+
+.justify-text{
+  text-align: justify;
+}
+   /* Carousel styling */
+   #introCarousel,
+   .carousel-inner,
+   .carousel-item,
+   .carousel-item.active {
+     height: 100vh;
+   }
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #introCarousel {
+      margin-top: 0px;
+    }
+    #introCarousel,
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item.active {
+      height: 50vh;
+    }
+  }

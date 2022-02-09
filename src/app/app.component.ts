@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'project1';
+  url = 'https://buzzhifi.com/'
+  //create object
+  obj ={
+    name:'bob',
+    age:25
 }
