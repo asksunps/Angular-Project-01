@@ -13,3 +13,5 @@ export class AppComponent {
     name:'bob',
     age:25
 }
+}
+ 
